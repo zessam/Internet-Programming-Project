@@ -1,0 +1,80 @@
+body
+{
+    background-image: url("../images/books.jpg");
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.container
+{
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+h1
+{
+    padding-top: 15px;
+    text-align: center;
+}
+
+form label
+{
+    margin-top: 5px;
+    display: flex;
+}
+
+form input
+{
+    padding: 7px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+form p
+{
+    text-align: center;
+}
+
+input[type="checkbox"]
+{
+    display: inline-block;
+    width: auto;
+}
+
+input[type="submit"]
+{
+    background-color: #015294;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    width: 95%;
+}
+
+input[type="reset"]
+{
+    background-color: #015294;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    width: 95%;
+}
+
+footer
+{
+    margin-bottom: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

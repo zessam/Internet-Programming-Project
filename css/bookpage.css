@@ -1,0 +1,96 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+header nav
+{
+    text-align: right;
+    background-color: brown;
+}
+header nav ul li
+{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    display:inline-block;
+    padding:10px 10px;
+    padding-right: 30px;
+    
+}
+header nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size:13px;
+}
+header nav ul li::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+header nav ul li:hover::after
+{
+    width: 100%;
+}
+.container
+{
+    font-family: serif;
+    width: auto;
+    height: auto;
+    background-image: url("../images/books\ wallpaper.jpg");
+    color: white;
+}
+
+.container hr
+{
+    border: 8px solid white;
+    border-radius: 10px;
+}
+.book_card
+{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 100px;
+}
+
+.book_card h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+    text-align: start;
+}
+
+.book_card p
+{
+    padding-top: 15px;
+    font-size: 25px;
+    margin-right: auto;
+    text-align: start;
+}
+.book_card img
+{
+    width: 175px;
+}
+
+.stars
+{
+    text-align: start;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+footer
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

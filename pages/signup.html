@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <script defer src="../js/signup.js"></script>
+</head>
+<body>
+  <form action="action_page.php">
+  <div class="main">
+    <div class="container">     
+      <h1>Sign Up</h1>
+      <label for="uname"><b>Username</b></label> 
+      <input type="text" placeholder="Username" name="uname" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="XXX@gmail.com" name="email" required>
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="XXXXX" name="password" required>
+      <label for="passagain"><b>Confirm password </b></label>
+      <input type="password" placeholder="XXXXX" name="pass" required>
+      <br>
+      <br>
+      <!-- <p>Agree to our  <a href="#" style="color:rgb(53, 30, 255)">Terms & Privacy</a>.</p>       -->    
+      <input type="checkbox" name="agree"> Agree to our <a href= "#">Terms & Privacy</a>.
+      <input id = "signup" type="submit" Value= "Sign up" class="Button_signup">
+      <input id= "clear" type="reset" Value= "Cancel" class="Button_Cancel">
+      <p>Already have an <a href="../pages/signin.html">Account</a>.</p>
+    </div>
+  </div>
+  </form>
+  <!-- <script src="../js/signup.js"></script> -->
+  <footer>
+    <p>&copy; 2023 Online Bookstore. All rights reserved.</p>
+  </footer>    
+</body>
+</html>

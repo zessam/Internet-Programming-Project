@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign-in page</title>
+    <link rel="stylesheet" href="../css/signin.css">
+    <script defer src="../js/signin.js"></script>
+</head> 
+<body>
+  <form action="action_page.php" method="post">
+    <div class="container">
+      <h1>Sign In</h1>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder=" Username" name="username" required>
+      <label for="pass"><b>Password</b></label>
+      <input type="password" placeholder=" XXXXX" name="pass" required>    
+      <span id="passRet"> Forget <a href="#">Password</a>?</span>
+      <br>
+      <br>
+      <input type ="checkbox" id="remember" name="remember">Remember Me</input>
+      <br>
+      <input type ="submit" id="signin" value="Sign in" class="Sign_inButto">
+      <input type= "reset" id="cancel" value="Cancel" class="cancelbutton">
+      <p>Not a User? <a href="../pages/signup.html">Register</a>.</p>
+    </div>
+  </form> 
+  <!-- <script src ="../js/signin.js"></script> -->
+  <footer>
+    <p>&copy; 2023 Online Bookstore. All rights reserved.</p>
+  </footer>         
+</body>
+</html>
